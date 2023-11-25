@@ -104,9 +104,9 @@ body{
 
 @media (max-width:500px){
     body{
-        overflow: hidden;
+    overflow: hidden;  /*no funciona?*/
     }
-
+    
     .bg-image{
     width: 50rem;
     }
@@ -126,4 +126,8 @@ body{
         width: 90%;
      }
 
+     .card .card-footer .card-stats{
+        margin: 0 0.3em;
+        width: 10rem;
+    }
 }
