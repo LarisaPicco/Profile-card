@@ -103,28 +103,25 @@ body{
 }
 
 @media (max-width:500px){
-    body{
-    overflow: hidden;  /*no funciona?*/
-    }
+    html{
+    font-size: 60%;
+ }
     
     .bg-image{
-    width: 50rem;
+      display: none;
     }
-    .bg-image-top{
-        top: -35rem;
-        left: -45rem;
-        width: 85rem;
-     }
-     
-     .bg-image-bottom{
-        bottom: -35rem;
-        right: -45rem;
-        width: 85rem;
-     }
 
-     .card{
+    .card{
         width: 90%;
-     }
+    }
+
+    .card .card-header .perfil{
+        border-radius: 50%;
+        border: 0.5rem solid white;
+        position: absolute;
+        top: 6.5rem;
+        left: 13rem;
+    }
 
      .card .card-footer .card-stats{
         margin: 0 0.3em;
